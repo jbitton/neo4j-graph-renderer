@@ -1,6 +1,6 @@
 {
   "name": "neo4j-graph-renderer",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "lib/index.js",
   "dependencies": {
     "d3": "3.5.17",
