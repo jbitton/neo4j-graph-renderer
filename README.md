@@ -5,6 +5,7 @@ Since neo4j does not provide a way to render its graphs, this is a component tha
 ## Usage
 
 This is a react component that can be used throughout your project!
+
 ```npm install neo4j-graph-renderer```
 
 Props you must provide:
