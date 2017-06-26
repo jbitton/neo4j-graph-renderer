@@ -1,7 +1,17 @@
 {
   "name": "neo4j-graph-renderer",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "lib/index.js",
+  "author": "Joanna Bitton",
+  "homepage": "https://github.com/jbitton/neo4j-graph-renderer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbitton/neo4j-graph-renderer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jbitton/neo4j-graph-renderer/issues"
+  },
+  "license": "MIT",
   "dependencies": {
     "d3": "3.5.17",
     "jquery": "^3.2.1",
@@ -88,5 +98,11 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "neo4j",
+    "graph"
+  ]
 }
