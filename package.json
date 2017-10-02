@@ -1,6 +1,6 @@
 {
   "name": "neo4j-graph-renderer",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "lib/index.js",
   "author": "Joanna Bitton",
   "homepage": "https://github.com/jbitton/neo4j-graph-renderer",
