@@ -30,7 +30,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
 Props you must provide:
-* ```url```: the url required to access your neo4j db
+* ```url```: the url required to access your neo4j db (e.g. "http://localhost:7474")
 * ```user```: the username required to access your neo4j db
 * ```password```: the password required to access your neo4j db
 * ```query```: the query you'd like to execute
