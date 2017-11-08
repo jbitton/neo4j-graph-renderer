@@ -4,11 +4,18 @@ Since neo4j does not provide a way to render its graphs, I've created a react co
 
 ## Installation
 
+If you are using `create-react-app`:
 ```bash
 # using NPM
 $ npm install neo4j-graph-renderer --save
 # using yarn
 $ yarn add neo4j-graph-renderer
+```
+
+If you are not using `create-react-app`, please install the following:
+```bash
+$ npm install style-loader --save-dev  # style-loader for webpack
+$ npm install css-loader --save-dev    # css-loader for webpack
 ```
 
 ## Usage
@@ -30,7 +37,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
 Props you must provide:
-* ```url```: the url required to access your neo4j db
+* ```url```: the url required to access your neo4j db (e.g. "http://localhost:7474")
 * ```user```: the username required to access your neo4j db
 * ```password```: the password required to access your neo4j db
 * ```query```: the query you'd like to execute
